@@ -10,4 +10,20 @@ export default class Etudiant {
     const etudiants = await response.json();
     return etudiants;
   };
+  addEtudiant = async function () {
+    const response = await fetch(ENDPOINT, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: this.name,
+        date: this.age,
+        note: this.note,
+      }),
+    });
+
+    console.log(response);
+    return response;
+  };
 }

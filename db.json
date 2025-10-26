@@ -1,5 +1,29 @@
 {
   "etudiants": [
-    { "id": 1, "name": "jamaoui", "date": "2002/10/28", "note": 18 }
+    {
+      "id": 1,
+      "name": "jamaoui",
+      "date": "2002/10/28",
+      "note": 18
+    },
+    {
+      "id": 2,
+      "name": "fatim ezzahra",
+      "date": "2003/10/08",
+      "note": 10
+    },
+    {
+      "id": 3,
+      "name": "youssra",
+      "date": "1998/1/18",
+      "note": 12
+    },
+
+    {
+      "id": "00c9",
+      "name": "hamid",
+      "date": "9888-09-12",
+      "note": "12"
+    }
   ]
 }
